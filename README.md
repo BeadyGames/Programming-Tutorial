@@ -10,6 +10,12 @@ to you. We'll cover basic syntax and problems to solve using the console window 
 Later on in the tutorial, we'll cover how to request a window using the Win32 API and render objects onto the screen
 using DirectX12.
 
+For now, get yourself set up to use Visual Studio 2026 Community Edition.
+
+Let this be your first challenge. Most problems will involve searching the web for information.
+
+Get that installed and set up, then start from Chapter 1.
+
 I hope this tutorial serves you well.
 
 Nathan Gardner
