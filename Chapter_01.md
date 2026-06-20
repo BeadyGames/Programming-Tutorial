@@ -5,7 +5,7 @@
 Every C++ program requires a point where execution of code must start.
 In our programs, it'll be `main()`:
 
-```
+```cpp
 int main()
 {
     return 0;
