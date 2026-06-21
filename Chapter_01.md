@@ -14,7 +14,7 @@ int main()
 
 The `int` is the return type for the function (we'll get onto types soon!).
 
-`main` is the name of the function and is a special function in C++ used as an entry point to our program.
+`main` is the name of the function and is a special function used as an entry point for every C++ program.
 
 `return 0` returns an `int`. All functions with a return type must return a value of that type.
 
@@ -39,8 +39,16 @@ int main()
 }
 ```
 
-You can read the writing between the "" marks as indvidual characters flowing into `std::cout` via the `<<` operator.
+`#include` is a shorthand way of copying and pasting code written by others into our program.
 
-The writing between the "" marks are known as a string literal and is what will be shown in the output when we run the program.
+`<iostream>` contains code written by other programmers that enable us to read and write to the input and output streams.
+
+You can read the writing between the "" marks as indvidual characters flowing into `std::cout` via the `<<` operator.
+`cout` is an object and the name is short for 'character output'.
+
+The individual characters between "" marks are, when combined, known as a string literal and is what will be shown in the output when we run the program.
+
+`\n` is special character called a 'format specifier'. when used in conjunction with any string literal, it acts as though the user has pressed the `enter` key
+to go to a new line.
 
 **Exercise:** Get this program to run. Change the output to print "Game on!"
