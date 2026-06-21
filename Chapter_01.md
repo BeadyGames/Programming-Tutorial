@@ -43,6 +43,8 @@ int main()
 
 `<iostream>` contains code written by other programmers that enable us to read and write to the input and output streams.
 
+Hence, `#include <iostream>` is a copy and paste of input and output functionality.
+
 You can read the writing between the "" marks as indvidual characters flowing into `std::cout` via the `<<` operator.
 `cout` is an object and the name is short for 'character output'.
 
@@ -50,5 +52,7 @@ The individual characters between "" marks are, when combined, known as a string
 
 `\n` is special character called a 'format specifier'. when used in conjunction with any string literal, it acts as though the user has pressed the `enter` key
 to go to a new line.
+
+`std` is a `namespace` 
 
 **Exercise:** Get this program to run. Change the output to print "Game on!"
