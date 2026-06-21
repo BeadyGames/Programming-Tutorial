@@ -92,5 +92,9 @@ Try and work out what these two lines do. The main takeaway is the idea of an L 
 
 The line `double d2 = d;` puts the value stored inside `d` (rvalue) into the object in memory named `d2` (lvalue).
 
+We can print the values in these objects by writing:
+
+`std::cout << d << " " << d2 << '\n';`
+
 
 
