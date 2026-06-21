@@ -60,4 +60,4 @@ The `;` at the end of the line is a terminating statement - it works in a way so
 
 **Exercise 1.1:** Get this program to run. Change the output to print "Game on!".
 
-**Exercise 2.2:** Get the program to produce errors. For example, experiment changing the name of `main` to `Main` or `std::cout` to `STd::cout'.
+**Exercise 1.2:** Get the program to produce errors. For example, experiment changing the name of `main` to `Main` or `std::cout` to `STd::cout'.
