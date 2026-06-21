@@ -3,7 +3,7 @@
 ## The main() function
 
 Every C++ program requires a point where execution of code must start.
-In our programs, it'll be `main()`:
+All C++ programs have `main()`:
 
 ```cpp
 int main()
