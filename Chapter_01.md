@@ -1,4 +1,4 @@
-# Chapter 1
+    # Chapter 1
 
 ## The main() function
 
@@ -53,6 +53,11 @@ The individual characters between "" marks are, when combined, known as a string
 `\n` is special character called a 'format specifier'. when used in conjunction with any string literal, it acts as though the user has pressed the `enter` key
 to go to a new line.
 
-`std` is a `namespace` 
+`std` is a `namespace` where code is written for objects such as `cout`. So we use the scope resolution operator `::` to access `cout` inside the `namespace` `std`.
+So `std::cout` can be read as the `cout` that belongs in the `namespace` `std`.
 
-**Exercise:** Get this program to run. Change the output to print "Game on!"
+The `;` at the end of the line is a terminating statement - it works in a way so the compiler knows when a statement ends.
+
+**Exercise 1.1:** Get this program to run. Change the output to print "Game on!".
+
+**Exercise 2.2:** Get the program to produce errors. For example, experiment changing the name of `main` to `Main` or `std::cout` to `STd::cout'.
