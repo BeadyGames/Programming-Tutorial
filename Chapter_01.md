@@ -61,3 +61,36 @@ The `;` at the end of the line is a terminating statement - it works in a way so
 **Exercise 1.1:** Get this program to run. Change the output to print "Game on!".
 
 **Exercise 1.2:** Get the program to produce errors. For example, experiment changing the name of `main` to `Main` or `std::cout` to `STd::cout'.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Data Types
+
+C++ has built in data types `int` `double` `char` `bool`, to name a few.
+
+We can store a value inside a 'box' to use for later when needed. These boxes reside in our computer's memory and are called objects.
+
+An object is a region of memory that has a type associated with it. For example, 
+
+`int val = 10;`
+
+is an object in memory of type `int` that contains the value `10`. 
+
+We gave the object a name `val` so that we could refer to that object in memory when needed - how else would we find that value in memory?
+
+`=` is the assignment operator. It puts whatever value is on the right and puts it into the the object on the left.
+
+On the left-hand side of the `=` operator is the LValue, an object in memory with a type.
+
+On the right-hand side of the `=` operator is the RValue, the value inside an object in memory.
+
+```cpp
+double d = 12.4;
+double d2 = d;
+```
+
+Try and work out what these two lines do. The main takeaway is the idea of an L and R value.
+
+The line `double d2 = d;` puts the value stored inside `d` into the object in memory named `d2`.
+
+
+
