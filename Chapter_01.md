@@ -77,7 +77,7 @@ is an object in memory of type `int` that contains the value `10`.
 
 We gave the object a name `val` so that we could refer to that object in memory when needed - how else would we find that value in memory?
 
-`=` is the assignment operator. It puts whatever value is on the right and puts it into the the object on the left.
+`=` is the assignment operator. It puts whatever value is on the right and puts it into the object on the left.
 
 On the left-hand side of the `=` operator is the LValue, an object in memory with a type.
 
@@ -90,7 +90,7 @@ double d2 = d;
 
 Try and work out what these two lines do. The main takeaway is the idea of an L and R value.
 
-The line `double d2 = d;` puts the value stored inside `d` into the object in memory named `d2`.
+The line `double d2 = d;` puts the value stored inside `d` (rvalue) into the object in memory named `d2` (lvalue).
 
 
 
